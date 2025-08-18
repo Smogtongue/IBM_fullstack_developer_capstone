@@ -12,4 +12,7 @@
  - completed user profiles/images for the about me.
 
 #### Contact Page
- - Most of the way done with this, some CSS required.
+ - Completed.
+
+#### Login & Registration
+- Completed.

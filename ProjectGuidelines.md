@@ -121,3 +121,23 @@ The solution will consist of multiple technologies
   7. The "Dealerships Website" consumes the "Sentiment Analyzer Service" to analyze the sentiments of the reviews through the Django Proxy contained within the Django application.
 
 <img src= "https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMSkillsNetwork-CD0321EN-Coursera/labs/v2/m1/images/v2.capstone-dealership-architecture.png" >
+
+
+
+## User Management Overview
+
+Now, you have the initial Django application built and deployed. In the next step, the admins of the dealership will review the app to identify users and manage their accesses based on roles (such as anonymous users or registered users). To accomplish this, you need to add authentication and authorization, that is, user management, to the app. In this lesson, you need to perform the following tasks to add the user management feature: 
+
+    Create a superuser for your app.
+
+    Build the Client side and configure it.
+
+    Check the Client configuration.
+
+    Add a Login view to handle login requests.
+
+    Add a Logout view to handle logout requests.
+
+    Add a Registration view to handle Sign-up requests.
+
+Follow the instructional lab to complete the above tasks step by step.

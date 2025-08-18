@@ -6,3 +6,5 @@
 
 ### First Steps:
   Imported Github to the Cloud IDE
+  Set Access Token for update capabilities from Cloud IDE to Github Repository
+  

@@ -8,3 +8,8 @@
   - Imported Github to the Cloud IDE
   - Set Access Token for update capabilities from Cloud IDE to Github Repository
 
+#### About Me 
+ - completed user profiles/images for the about me.
+
+#### Contact Page
+ - Most of the way done with this, some CSS required.

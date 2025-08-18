@@ -1,0 +1,3 @@
+- django server
+- about us page
+- contact page

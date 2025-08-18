@@ -2,9 +2,9 @@
 # Car Dealership Review Site
 
 ## Project Tracking:
-  Project has been forked from ` https://github.com/ibm-developer-skills-network/xrwvm-fullstack_developer_capstone `
+  - Project has been forked from ` https://github.com/ibm-developer-skills-network/xrwvm-fullstack_developer_capstone `
 
 ### First Steps:
-  Imported Github to the Cloud IDE
-  Set Access Token for update capabilities from Cloud IDE to Github Repository
-  
+  - Imported Github to the Cloud IDE
+  - Set Access Token for update capabilities from Cloud IDE to Github Repository
+

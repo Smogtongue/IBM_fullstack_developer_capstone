@@ -19,3 +19,6 @@
 
 #### MongoDB database connection and Dealership/Reviews endpoints
 - Completed.
+
+#### MongoDB Car Make/Model generation and endpoints
+- Completed.

@@ -14,5 +14,5 @@
 #### Contact Page
  - Completed.
 
-#### Login & Registration
+#### Login, Logout, & Registration
 - Completed.

@@ -16,3 +16,6 @@
 
 #### Login, Logout, & Registration
 - Completed.
+
+#### MongoDB database connection and Dealership/Reviews endpoints
+- Completed.

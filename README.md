@@ -22,3 +22,6 @@
 
 #### MongoDB Car Make/Model generation and endpoints
 - Completed.
+
+### MongoDB Views for searching dealerships and reviews. Ability to post reviews.
+- Completed

@@ -141,3 +141,21 @@ Now, you have the initial Django application built and deployed. In the next ste
     Add a Registration view to handle Sign-up requests.
 
 Follow the instructional lab to complete the above tasks step by step.
+
+## Node.js Mongo DB dockerized server Overview
+
+The Django application you created in the last module needs to communicate with the database. In this module, you will create a containerized Node.js application that uses MongoDB as the backend to serve API endpoints.
+
+You will write these back-end services in an Express app and containerize it with Docker.
+
+You will view and test the following endpoints:
+  
+     - /fetchReviews/dealer/29
+  
+     - /fetchDealers 
+  
+     - /fetchDealer/3
+  
+     - /fetchDealers/Kansas
+
+Follow the instructional lab to complete the above tasks step by step.

@@ -158,4 +158,24 @@ You will view and test the following endpoints:
   
      - /fetchDealers/Kansas
 
-Follow the instructional lab to complete the above tasks step by step.
+## Django Models Views
+
+You have created a dealership and reviews related to CRUD APIs. Next, you need to create data models and services for the dealers' inventory. Each dealer manages a car inventory with different car models and makes, which are, in fact, relatively static data, thus suitable to be stored in Django locally.  To integrate external dealers and review data, you will need to call the APIs from the Django app and process the API results in Django views to be later rendered through REACT pages. Such Django views use proxy services to fetch data from external resources as per users' requests and renders it using REACT components. In this lesson, you need to perform the following tasks to add car model and make related models and views, and proxy services:
+
+    Create CarModel and CarMake Django models
+
+    Register CarModel and CarMake models with the admin site
+
+    Create new car models objects with associated car makes and dealerships
+
+## Dynamic Pages Overview
+
+You created all necessary backend services (Django views and API endpoints) for managing dealerships, reviews, and cars in the last module. Next, it is time to create some stylized front-end REACT pages to present those service results to the end users. In this learning module, you need to perform the following tasks to add the front-end to the app:
+
+    Create a Dealers component to list all the dealers
+
+    Create a dealer details component that will show the reviews for that particular dealer
+
+    Create a review submission page
+
+

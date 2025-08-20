@@ -1,33 +1,48 @@
-const { Int32 } = require('mongodb');
+/*jshint esversion: 8 */
 const mongoose = require('mongoose');
-
 const Schema = mongoose.Schema;
 
-const cars = new Schema({
-dealer_id: {
+const inventorySchema = new Schema({
+  id: {
     type: Number,
-    required: true
-},
-make: {
-    type: String,
-    required: true
+    required: true,
   },
-model: {
+  car_make: {
     type: String,
-    required: true
+    required: true,
   },
-bodyType: {
+  car_model: {
     type: String,
-    required: true
+    required: true,
   },
-year: {
+  car_year: {
     type: Number,
-    required: true
+    required: true,
   },
-mileage: {
+  car_type: {
+    type: String,
+    required: true,
+  },
+  car_color: {
+    type: String,
+    required: true,
+  },
+  car_mileage: {
     type: Number,
-    required: true
-  }
+    required: true,
+  },
+  car_price: {
+    type: Number,
+    required: true,
+  },
+  car_condition: {
+    type: String,
+    required: true,
+  },
+  dealership: {
+    type: Number,
+    required: true,
+  },
 });
 
-module.exports = mongoose.model('cars', cars);
+module.exports = mongoose.model('inventory', inventorySchema);

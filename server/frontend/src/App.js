@@ -9,11 +9,7 @@ function App() {
       <Route path="/login" element={<LoginPanel />} />
       <Route path="/register" element={<Register />} />
       <Route path="/dealers" element={<Dealers/>} />
-<<<<<<< HEAD
       <Route path="/dealer/:id" element={<Dealer/>} />
-=======
-      
->>>>>>> d9dd10bea227ec069d2a6e5e99ce3b1cbcbda389
     </Routes>
   );
 }

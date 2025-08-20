@@ -111,10 +111,12 @@ def get_dealer_reviews(request, dealer_id):
                 if response is not None and 'sentiment' in response:
                     review_detail['sentiment'] = response['sentiment']
                 else:
-                    review_detail['sentiment'] = 'neutral'  # fallback sentiment
+                    # fallback sentiment
+                    review_detail['sentiment'] = 'neutral'
             except Exception as e:
                 print(f"Error analyzing sentiment: {e}")
-                review_detail['sentiment'] = 'neutral'  # fallback sentiment
+                # fallback sentiment
+                review_detail['sentiment'] = 'neutral'
         return JsonResponse({"status": 200, "reviews": reviews})
     else:
         return JsonResponse({"status": 400, "message": "Bad Request"})
@@ -139,6 +141,6 @@ def add_review(request):
             return JsonResponse({"status": 200})
         except Exception:
             return JsonResponse({"status": 401,
-                               "message": "Error in posting review"})
+                                "message": "Error in posting review"})
     else:
         return JsonResponse({"status": 403, "message": "Unauthorized"})

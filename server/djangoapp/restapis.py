@@ -1,4 +1,3 @@
-# Uncomment the imports below before you add the function code
 import requests
 import os
 from dotenv import load_dotenv
@@ -45,7 +44,8 @@ def analyze_review_sentiments(text):
     except Exception as err:
         print(f"Unexpected {err=}, {type(err)=}")
         print("Network exception occurred")
-        return {"sentiment": "neutral"}  # Return default sentiment when service is unavailable
+        # Return default sentiment when service is unavailable
+        return {"sentiment": "neutral"}
 
 
 # def post_review(data_dict):

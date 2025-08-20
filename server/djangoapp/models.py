@@ -49,12 +49,12 @@ class CarModel(models.Model):
         ('USED', 'Used'),
         ('EV', 'Electric'),
     ]
-                condition = models.CharField(max_length=10, choices=CAR_CONDITIONS,
+    condition = models.CharField(max_length=10, choices=CAR_CONDITIONS,
                                 default='NEW')
 
     color = models.CharField(max_length=30, blank=True)
     mileage = models.IntegerField(null=True, blank=True)
-                price = models.DecimalField(max_digits=10, decimal_places=2, null=True,
+    price = models.DecimalField(max_digits=10, decimal_places=2, null=True,
                                blank=True)
 
     def __str__(self):

@@ -39,7 +39,8 @@ def analyze_review_sentiments(text):
         if response.status_code == 200:
             return response.json()
         else:
-            print(f"Sentiment analyzer returned status code: {response.status_code}")
+            print(f"Sentiment analyzer returned status code: "
+                  f"{response.status_code}")
             return {"sentiment": "neutral"}
     except Exception as err:
         print(f"Unexpected {err=}, {type(err)=}")
